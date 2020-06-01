@@ -1,13 +1,34 @@
-# Introduction
+# Ally.Guide Overview
+Ally.guide is a web app hoping to support and strengthen racial justice movements against policy brutality by guiding folx to become better allies by: educating, donating, activating policies, and collaborating with existing orgs through services.
 
-This is a hackathon boilerplate for new Node.js applications created by [Major League Hacking](https://github.com/mlh). It is for hackers looking to get started quickly on a new hackathon project using the Node.js environment.
+## About the Project
+### Educate:
+- How to guides for antiracism (showing up to protests, talking to family members, etc)
+- FAQ’s (what questions do you think would be helpful here?)
+- Toolbox of articles, essays, and online pdfs that outline history of antiblackness and why it matters.
+- Healing tools
+- Current events by state
 
-- [Installation Guide](#installation-guide) - How to get started with a new Node.js app
-- [User Guide](https://github.com/MLH/mlh-hackathon-nodejs-starter/blob/master/docs/USER_GUIDE.md) - How to develop apps created with this starter project
-- [Contributing Guide](https://github.com/MLH/mlh-hackathon-nodejs-starter/blob/master/docs/CONTRIBUTING.md) - How to contribute to the project
+### Donate:
+- Racial Justice oriented orgs
+- Task Forces (Bail Funds, Supply funds, etc on the ground)
+- Families affected
+- Helping black owned businesses
 
-# <a name='installation-guide'>Installation Guide</a>
+### Activate:
+- Query representatives, Email templates that can be sent directly (referencing petitions)
+- Call tracks
+- Petitions to sign and follow
 
+### Collaborate:
+- Public Demos
+- What are projects we can add to (raheem.ai, antipoliceterrorproject, etc)?
+- Form for volunteers to offer services
+
+As we set up infrastructure, we could really use your help to help populate these fields with current updates. This is a people movement, please let us know what could be made better and where we should expand. If you'd like to contribute to content, request access [here](https://docs.google.com/document/d/1dZgMP22Hgk6l6hmbzkX4vAjJBUqk_ytio7KJzU2viZk/edit?usp=sharing) 
+
+
+## Technical Requirements
 This project requires the following tools:
 
 - Node.js - The JavaScript environment for server-side code.
@@ -15,57 +36,6 @@ This project requires the following tools:
 - PostgreSQL - A relational database system.
 
 To get started, install NPM and Postgres on your local computer if you don't have them already. A simple way for Mac OS X users to install Postgres is using [Postgres.app](https://postgresapp.com/).
-
-## Getting Started
-
-**Step 1. Clone the code into a fresh folder**
-
-```
-$ git clone https://github.com/MLH/mlh-hackathon-nodejs-starter.git
-$ cd mlh-hackathon-nodejs-starter
-```
-
-**Step 2. Install Dependencies.**
-
-Next, we need to install the project dependencies, which are listed in `package.json`.
-
-```
-$ npm install
-```
-
-**Step 3: Create an app on GitHub**
-
-Head over to [GitHub OAuth apps](https://github.com/settings/developers) and create a new OAuth app. Name it what you like but you'll need to specify a callback URL, which should be something like:
-
-```
-https://localhost:5000/auth/callback/github
-```
-
-The default port for our app is `5000`, but you may need to update this if your setup uses a different port or if you're hosting your app somewhere besides your local machine.
-
-**Step 4: Update environment variables and run the Server.**
-
-Create a new file named `.env` by duplicating `.env.sample`. Update the new file with the GitHub credentials. It should look similar to this:
-
-```
-# .env file
-DATABASE_URL="[INSERT_DATABASE_URL]"
-GITHUB_CLIENT_ID="[INSERT_CLIENT_ID]"
-GITHUB_CLIENT_SECRET="[INSERT_CLIENT_SECRET]"
-```
-
-You replace the GitHub credentials here and update the database URL. Learn more about the required [Environment Variables here](#environment-variables).
-
-Now we're ready to start our server which is as simple as:
-
-```
-$ npm start
-```
-
-Open http://localhost:5000 to view it in your browser.
-
-The app will automatically reload if you make changes to the code.
-You will see the build errors and warnings in the console.
 
 # What's Included?
 
@@ -78,9 +48,3 @@ You will see the build errors and warnings in the console.
 
 We enforce a Code of Conduct for all maintainers and contributors of this Guide. Read more in [CONDUCT.md][mlh-conduct].
 
-# License
-
-The Hackathon Starter Kit is open source software [licensed as MIT][mlh-license].
-
-[mlh-conduct]: https://github.com/MLH/mlh-hackathon-nodejs-starter/blob/master/docs/CONDUCT.md
-[mlh-license]: https://github.com/MLH/mlh-hackathon-nodejs-starter/blob/master/LICENSE.md
