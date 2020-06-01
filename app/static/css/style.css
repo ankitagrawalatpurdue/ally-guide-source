@@ -15,7 +15,7 @@
 
 .octicon {
   display: inline-block;
-  vertical-align: text-top;
+  vertical-align: text-bottom;
 }
 
 .container{
@@ -26,7 +26,7 @@
 }
 
 .box{
-  flex: 1 0 calc(25% - 30px);
+  flex: 1 0 calc(25% - 20px);
   margin: 5px;
   background: #E9D2FF;
   opacity: 0.75;
