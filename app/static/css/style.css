@@ -1,5 +1,7 @@
 /* Custom stylesheet */
 
+/* Global */
+
 .nav-link:hover {
   color: inherit;
   text-decoration: none;
@@ -15,7 +17,6 @@
   display: inline-block;
   vertical-align: text-top;
 }
-
 
 .container{
   display: flex;
@@ -38,6 +39,22 @@
 }
 
 .btn-hover:hover {opacity: 1}
+
+/* Educate */
+
+/* Donate 
+On the Ground
+Petitions
+Organizations
+Black businesses 
+*/
+
+
+/* Collaborate 
+Contact Reps
+Volunteer
+Orgs 
+*/
 
 
 
