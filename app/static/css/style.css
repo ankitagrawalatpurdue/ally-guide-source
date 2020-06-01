@@ -22,13 +22,14 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  vertical-align:bottom;
 }
 
 .box{
   flex: 1 0 calc(25% - 30px);
   margin: 5px;
   background: #E9D2FF;
-  opacity: 0.6;
+  opacity: 0.75;
   transition: 0.3s;
   background-color: #9d1904;
 }
