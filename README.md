@@ -37,14 +37,14 @@ This project requires the following tools:
 
 To get started, install NPM and Postgres on your local computer if you don't have them already. A simple way for Mac OS X users to install Postgres is using [Postgres.app](https://postgresapp.com/).
 
-# What's Included?
+### What's Included?
 
 - [Express](https://expressjs.com/) - A minimal web framework for Node.js web applications
 - [Sequelize](http://docs.sequelizejs.com/) - A promise-based ORM for Node.js that supports PostgreSQL, MySQL, and SQLite.
 - [Bootstrap 4](https://getbootstrap.com/) - An open source design system for HTML, CSS, and JS.
 - [Handlebars](https://handlebarsjs.com/) - A popular templating language for building layouts.
 
-# Code of Conduct
+### Code of Conduct
 
 We enforce a Code of Conduct for all maintainers and contributors of this Guide. Read more in [CONDUCT.md][mlh-conduct].
 
