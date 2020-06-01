@@ -9,7 +9,7 @@ Ally.guide is a web app hoping to support and strengthen racial justice movement
 - Healing tools
 - Current events by state
 
-### Donate:
+### Donate (Biggest priority, please help with data labelling):
 - Racial Justice oriented orgs
 - Task Forces (Bail Funds, Supply funds, etc on the ground)
 - Families affected
