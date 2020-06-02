@@ -61,21 +61,7 @@
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-
-
-/*  GROUPING  */
-.group:before,
-.group:after {
-	content:"";
-	display:table;
-}
-.group:after {
-	clear:both;
-}
-.group {
-    zoom:1; /* For IE 6/7 */
+	margin: 1% 1% 1% 1.6% ;
 }
 
 /*  GRID OF THREE  */
@@ -105,7 +91,7 @@
 .textbtn {
   border: none;
   background-color: inherit;
-  padding: 14px 28px;
+  padding: 0px;
   font-size: 16px;
   cursor: pointer;
 }
