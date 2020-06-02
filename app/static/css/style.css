@@ -48,6 +48,9 @@
   -webkit-column-count: 5
    -moz-column-count: 5;
   columnt-count: 5
+  -webkit-column-gap: 4em;
+   -moz-column-gap: 4em;
+     column-gap: 4em;
 }
 
 .textbtn {
