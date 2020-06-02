@@ -42,6 +42,14 @@
 
 .btn-hover:hover {opacity: 1}
 
+/* Footer */
+
+.resources {
+  -webkit-column-count: 5
+   -moz-column-count: 5;
+  columnt-count: 5
+}
+
 /* Educate */
 
 /* Donate 
