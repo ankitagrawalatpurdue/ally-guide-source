@@ -48,35 +48,9 @@
 .resource {
 	display: grid;  
         grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 5x;
 	padding: 0px;
 	margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 1% 1% 1% ;
-	
-}
-
-.span_4_of_4 {
-	width: 100%;
-}
-.span_3_of_4 {
-	width: 1000%;
-}
-.span_2_of_4 {
-	width: 100%;
-}
-.span_1_of_4 {
-	width: 100%;
-}
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-	.col { margin: 1% 0 1% 0%;}
-	.span_5_of_5, .span_4_of_5, .span_3_of_5, .span_2_of_5, .span_1_of_5 { width: 100%; }
 }
 
 .textbtn {
