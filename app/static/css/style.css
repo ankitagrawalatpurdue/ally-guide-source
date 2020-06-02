@@ -48,10 +48,14 @@
 .resource {
 	display: grid;  
         grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-	padding: 0px;
-	margin-left: 20px;
-	margin-right:20px;
+	padding: 10px;
+	margin: 0px;
 }
+
+.col:first-child { margin-left: 20px; }
+
+.col:last-child { margin-right: 20px;}
+
 
 /*  COLUMN SETUP  */
 .col {
@@ -59,7 +63,6 @@
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
-.col:first-child { margin-left: 0; }
 
 
 /*  GROUPING  */
