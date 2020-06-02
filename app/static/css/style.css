@@ -52,11 +52,6 @@
 	margin: 0px;
 }
 
-.col:first-child { margin-left: 20px; }
-
-.col:last-child { margin-right: 20px;}
-
-
 /*  COLUMN SETUP  */
 .col {
 	display: block;
