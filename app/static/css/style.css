@@ -60,6 +60,18 @@
 	
 }
 
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 1000%;
+}
+.span_2_of_4 {
+	width: 100%;
+}
+.span_1_of_4 {
+	width: 100%;
+}
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
