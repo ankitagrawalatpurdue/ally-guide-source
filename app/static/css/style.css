@@ -51,11 +51,12 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  opacity: .75;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
-.btn-hover:hover {opacity: 1}
+.button-hover:hover {opacity: 1}
 
 /* Footer */
 
