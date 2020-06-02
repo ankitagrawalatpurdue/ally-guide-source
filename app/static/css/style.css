@@ -47,8 +47,8 @@
 /*  SECTIONS  */
 .resource {
 	display: grid;  
-        grid-template-columns: 2fr 2fr 2fr 2fr;
-	padding: 10px;
+        grid-template-columns: 3fr 1fr 1fr 1fr;
+	padding: 5px;
 	margin: 0px;
 }
 
