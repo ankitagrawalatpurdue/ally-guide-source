@@ -42,6 +42,7 @@
 
 .button {
   background-color: #4CAF50; /* Green */
+  border-radius: 56px;
   border: none;
   color: white;
   padding: 15px 32px;
