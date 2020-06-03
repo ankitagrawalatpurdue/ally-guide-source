@@ -3,30 +3,33 @@
   Say their name. 
   <div class = "container">
     <div> 
-      <a href = https://www.gofundme.com/f/i-run-with-maud> 
+      <a class = "blm" href = https://www.gofundme.com/f/i-run-with-maud> 
         <img src="img_girl.jpg" alt="I run with Maud gofundme" width="100">
       </a>
     </div>
        <div> 
-      <a href = https://www.gofundme.com/f/georgefloyd> 
+      <a class = "blm" href = https://www.gofundme.com/f/georgefloyd> 
         <img src="img_girl.jpg" alt="George Floyd's Memorial fund" width="100">
       </a>
     </div>
     <div>
-      <a href = https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor> 
+      <a class = "blm" href = https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor> 
         <img src="img_girl.jpg" alt="Breonna Taylor Memorial fund" width="100">
       </a>
     </div>
     <div>
-       <a href = https://www.gofundme.com/f/justicefordavidmcatee> 
+       <a class = "blm" href = https://www.gofundme.com/f/justicefordavidmcatee> 
         <img src="img_girl.jpg" alt="David McAtee Memorial fund" width="100"> </a>
     </div>
     <div>
-       <a href = https://www.gofundme.com/f/for-james-scurlocks-family> 
+       <a class = "blm" href = https://www.gofundme.com/f/for-james-scurlocks-family> 
         <img src="img_girl.jpg" alt="Jammes Scurlock's Family" width="100"> </a>
     </div>
+    <div>
+       <a class = "blm" href = https://www.gofundme.com/f/rke75-funeral-arrangements> 
+        <img src="img_girl.jpg" alt="Funeral arrangements for Alajunaye Davis" width="100"> </a>
+    </div>
   </div>
-
 </div>
 
 <button class="accordion">Section 1</button>
@@ -91,8 +94,16 @@ div.panel.show {
     opacity: 1;
     max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
-  
-.blm:hover {
+
+.blm{
+cursor: pointer;
+  opacity: .75;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+
+}
+
+a.blm:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   opacity: 1;
 }
