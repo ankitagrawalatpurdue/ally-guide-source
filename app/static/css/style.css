@@ -64,6 +64,10 @@
 .banner{
     display: none;
 }
+
+.toggle{
+	display:none;
+}
     
 .toggle:hover + banner {
     display: block;
