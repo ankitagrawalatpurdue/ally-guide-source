@@ -65,7 +65,7 @@
     display: none;
 }
     
-toggle:hover + banner {
+a:hover + banner {
     display: block;
 }
 
