@@ -61,6 +61,14 @@
   opacity: 1;
 }
 
+.banner{
+    display: none;
+}
+    
+toggle:hover + banner {
+    display: block;
+}
+
 /* Footer */
 
 /*  SECTIONS  */
